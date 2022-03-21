@@ -1,0 +1,21 @@
+@mixin coloredBG ($color) {
+    background-color: $color;
+}
+
+@mixin hoverBG () {
+    filter: brightness(65%);
+}
+
+@mixin hover () {
+    transition: background 200ms ease-in;
+    &:hover {
+        background: rgb(150, 255, 150);
+    }
+}
+
+@mixin hoverOrange () {
+    transition: background 200ms ease-in;
+    &:hover {
+        background: rgb(255, 178, 116);
+    }
+}
