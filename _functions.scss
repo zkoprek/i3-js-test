@@ -19,3 +19,8 @@
         background: rgb(255, 178, 116);
     }
 }
+
+@mixin HW ($H,$W) {
+    height: $H;
+    width: $W;
+}

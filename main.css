@@ -35,26 +35,6 @@ button {
   background: #96ff96;
 }
 
-.green:hover {
-  -webkit-filter: brightness(65%);
-          filter: brightness(65%);
-}
-
-.yellow:hover {
-  -webkit-filter: brightness(65%);
-          filter: brightness(65%);
-}
-
-.blue:hover {
-  -webkit-filter: brightness(65%);
-          filter: brightness(65%);
-}
-
-.brown:hover {
-  -webkit-filter: brightness(65%);
-          filter: brightness(65%);
-}
-
 .game {
   -webkit-box-shadow: 5px 5px #000000;
           box-shadow: 5px 5px #000000;
@@ -69,11 +49,11 @@ button {
 }
 
 .content {
-  background-color: #fff09a;
   padding: 20px;
   font-size: 40px;
   height: 480px;
   width: 100%;
+  background-color: #fff09a;
 }
 
 .slidebar {
@@ -101,10 +81,10 @@ button {
       -ms-flex-pack: center;
           justify-content: center;
   top: 265px;
-  height: 100px;
-  width: 100%;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  height: 100px;
+  width: 100%;
 }
 
 .qst {
@@ -186,8 +166,6 @@ button {
   border-radius: 15px;
   text-align: center;
   font-size: 40px;
-  height: 100px;
-  width: 600px;
   background-color: red;
   color: white;
   position: fixed;
@@ -197,6 +175,8 @@ button {
   margin: -100px 0 0 -100px;
   -webkit-animation: cssAnimation 3s forwards;
   animation: cssAnimation 3s forwards;
+  height: 100px;
+  width: 600px;
 }
 
 @keyframes cssAnimation {
@@ -263,8 +243,6 @@ button {
     -webkit-transition: background 200ms ease-in;
     transition: background 200ms ease-in;
     border: 2px solid black;
-    height: 50px;
-    width: 25px;
     margin-right: -25px;
     margin-bottom: -50px;
     border-radius: 15px;
@@ -274,6 +252,8 @@ button {
     left: 10px;
     top: 20px;
     display: block !important;
+    height: 50px;
+    width: 25px;
   }
   #mobileSlides:hover {
     background: #96ff96;
@@ -292,9 +272,9 @@ button {
     width: 200px;
   }
   #alertBox {
-    width: 250px;
-    height: 100px;
     font-size: 20px;
+    height: 100px;
+    width: 250px;
   }
 }
 /*# sourceMappingURL=main.css.map */
